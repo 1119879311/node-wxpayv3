@@ -1,7 +1,8 @@
 # wxNodeTs
 一个旨在整合微信公众号,微信支付(app支付，扫码支付，公众号和小程序支付)为目的微信工具类(持续更新中...)
+
 主要提供两大类 公众号wxpublic和微信wxpay
-######wxpublic类 提供方法
+###### wxpublic类 提供方法
 - constructor(config:IwxPublic) 构造函数
 参数说明：
 	interface IwxPublic {
@@ -26,7 +27,7 @@
      * @param nonce  随机数 (wxServe 返回的)
      * @param token : 微信公众号后台设置的token 标识 (开发者自己配置的)
 
-######wxPay微信支付类 提供方法
+###### wxPay微信支付类 提供方法
 - constructor(config:IWxPayBase) 构造函数
 参数说明：
 	interface IWxPayBase{
